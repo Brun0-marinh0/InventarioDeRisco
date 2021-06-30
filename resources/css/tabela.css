@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #4ce7a6;
+}
+.table.table-sm{
+    width: 70%;
+    height: 150px;
+    background-color: #ffffff;
+    position: absolute;
+    top: calc(50% - 300px);
+    left: calc(50% - 35%);
+    border-radius: 20px;
+    text-align: center;
+}
+table, td ,th{
+    border: solid 0.8px rgba(0, 0, 0, 0.11);
+}
+table{
+    border-collapse: collapse;
+    
+}
+.RiscoAlto{
+    background-color: red;
+    color: white;
+    width: 90%;
+    padding: 2%;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.RiscoBaixoMasSignificativo{
+    background-color: lightgreen;
+    color: black;
+    width: 90%;
+    padding: 2%;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+th{
+    font-weight: 600;
+    padding:30px;
+}
+td{
+    padding: 10px;
+}
+.btn-vizualizar{
+    list-style: none;
+    text-decoration: none;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    box-shadow: #2a6eff 2px 2px 15px;
+    font-weight: 600;
+    border-radius: 20px;
+}
